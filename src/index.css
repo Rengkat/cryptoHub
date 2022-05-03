@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .links {
+    @apply flex hover:bg-blue-500 p-3 font-semibold;
+  }
+  .nav-icon {
+    @apply pr-3 pb-2;
+  }
+  .digits {
+    @apply text-2xl font-semibold;
+  }
+}
+/*  */
